@@ -21,8 +21,8 @@ st.divider()
 # ── Form ───────────────────────────────────────────────────
 with st.form("resit_form"):
     pbt = st.text_input("PBT", value="MAJLIS BANDARAYA IPOH")
-    nama = st.text_input("Nama", value="MULTICOM COMPUTER ENTERPRISE")
-    no_kenderaan = st.text_input("No Kenderaan", value="BRX6666")
+    nama = st.text_input("Nama", value="")
+    no_kenderaan = st.text_input("No Kenderaan", value="")
     jenis = st.text_input("Jenis Penggunaan", value="PAS BULANAN")
 
     col1, col2 = st.columns(2)
